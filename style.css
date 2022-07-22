@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-top:30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 1px solid red;
+    
+}
+.top-banner{
+    width: 100%;
+    max-height: 100%;
+    background: black;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+    
+}
+.top-banner>.banner-info>h1{
+    font-weight: 700;
+    font-size: 50px;
+    
+
+}
+.top-banner>.banner-info>p{
+    font-weight: 400;
+    font-size: 16px;
+    
+    
+}
+.banner-info{
+    width: 500px;
+    height: 400px;
+
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, salmon, tomato);
+    border: 1px red;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.sidenav{
+    width: 312px;
+    height: 250px;
+    background-color: black;
+    border: 2px red;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: left;
+    
+}    
+
+.side-menu{
+    width: 252px;
+    height: 45px;
+    background-color:white;
+    border: 1px black;
+    padding-top: 10px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 10px;
+    
+
+    
+}
+.side-menu>a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+#nav-blog{
+    background-color: red;
+    
+}
+#nav-blog>a{
+    color: whitesmoke;
+}
+
+
+.player{
+    width: 312px;
+    height: 362px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0px 10px 10px;  
+
+}
+.player>p>a{
+    width: 100px;
+    height: 32px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 4px 16px;
+    color: #161616;
+}
+.player>p{
+    padding-left: 20px;
+}
+.update{
+    display: grid;
+    color: rgba(22, 22, 22, 0.7);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 20px;
+        
+}
+.time {
+    display: flex;
+}
+.chat{
+    display: flex;
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+}
