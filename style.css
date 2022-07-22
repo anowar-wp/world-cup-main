@@ -1,3 +1,8 @@
+/*---Common code----
+
+-------------------*/
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
@@ -6,7 +11,7 @@ body{
     margin-top:30px;
     margin-left: 80px;
     margin-right: 80px;
-    border: 1px solid red;
+    
     
 }
 .top-banner{
@@ -136,3 +141,45 @@ section{
     
     
 }
+
+footer{
+    background-color: black;
+    color: white;
+    height: 300px;
+    
+}
+footer p{
+text-align: center;
+font-weight: 600;
+font-size: 40px;
+padding-top: 40px;
+color: white;
+
+}
+hr{
+
+    width: 1320px;
+    height: 0px;
+    left: 140px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+footer>ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+footer>ul>li{
+    padding: 10px 30px 20px 20px;
+    
+}
+footer>ul>li>a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
